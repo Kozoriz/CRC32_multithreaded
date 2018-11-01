@@ -1,0 +1,8 @@
+to build : 
+- create/go in "build" dir
+- run "cmake .. && make"
+
+to run : 
+- go to build/bin
+- run with parameters "CRC32_multithreaded <generators> <processors> <block_size> <blocks_count>"
+-- example : CRC32_multithreaded 10 10 100 1000
